@@ -35,7 +35,7 @@ git config --global merge.conflictstyle diff3
 git config --list
 
 ### 3.Git 与代码编辑器
-    最后一个配置步骤是让 Git 能与你的代码编辑器结合使用。以下是三个最热门的代码编辑器。如果你使用的是其他编辑器，则在 Google 中搜索“修改 Git 默认编辑器为 X 编辑器”（将 X 替换为你的代码编辑器的名称）
+   最后一个配置步骤是让 Git 能与你的代码编辑器结合使用。以下是三个最热门的代码编辑器。如果你使用的是其他编辑器，则在 Google 中搜索“修改 Git 默认编辑器为 X 编辑器”（将 X 替换为你的代码编辑器的名称）
 #### Atom Editor 设置
 git config --global core.editor "atom --wait"
 #### Sublime Text 设置
