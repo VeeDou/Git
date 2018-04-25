@@ -11,7 +11,7 @@
 ### 1.基本术语
     Commit:保存当前文件的状态的命令，类似游戏的存档
     Repository/repo:一个项目的目录，用git进行通信。可以存在本地或作为副本远程存储在其它计算机上
-    Working Directory:在本地文件系统中，进行编辑或者其它操作的文件目录，对应有区别的就是commit之后保持                 在仓库中的文件
+    Working Directory:在本地文件系统中，进行编辑或者其它操作的文件目录，对应有区别的就是commit之后保持在仓库中的文件
     Checkout:检出是指将仓库中的内容复制到工作目录下。
     Staging Area / Staging Index / Index:Git 目录下的一个文件，存储的是即将进入下个 commit 内容的信息。
     SHA:SHA 是每个 commit 的 ID 编号，全称是：Secure Hash Algorithm
@@ -25,23 +25,23 @@
     3.安装 Git 并选择所有默认选项
     
 #### 设置你的 Git 用户名
-git config --global user.name "< Your-Full-Name >"
+    git config --global user.name "< Your-Full-Name >"
 #### 设置你的 Git 邮箱
-git config --global user.email "< your-email-address >"
+    git config --global user.email "< your-email-address >"
 #### 确保 Git 输出内容带有颜色标记
-git config --global color.ui auto
+    git config --global color.ui auto
 #### 对比显示原始状态
-git config --global merge.conflictstyle diff3
-git config --list
+    git config --global merge.conflictstyle diff3
+    git config --list
 
 ### 3.Git 与代码编辑器
    最后一个配置步骤是让 Git 能与你的代码编辑器结合使用。以下是三个最热门的代码编辑器。如果你使用的是其他编辑器，则在 Google 中搜索“修改 Git 默认编辑器为 X 编辑器”（将 X 替换为你的代码编辑器的名称）
 #### Atom Editor 设置
-git config --global core.editor "atom --wait"
+    git config --global core.editor "atom --wait"
 #### Sublime Text 设置
-git config --global core.editor "C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
+    git config --global core.editor "C:/Program Files/Sublime Text 2/sublime_text.exe' -n -w"
 #### VSCode 设置
-git config --global core.editor "code --wait"
+    git config --global core.editor "code --wait"
 #### 快速打开文件夹
     右键 git bash here
     在bash中，某目录中 start . 打开当前目录
